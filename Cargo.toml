@@ -1,0 +1,12 @@
+[package]
+name = "gmod-hook-test"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+name = "gmsv_hooktest"
+crate-type = ["cdylib"]
+
+[dependencies]
+gmod = { version = "17", default-features = false }
