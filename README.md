@@ -31,7 +31,7 @@ end)
 
 # How to install
 You can find the binary file in\
-**`target/<i686-W/E-W/E-W/E>/release/libgmsv_hooktest.so`**\
+**`target/<i686-W/E-W/E-W/E>/release/(lib)gmsv_hooktest.(so|dll)`**\
 rename it to\
 **`gmsv_hooktest_linux.dll`** | **`gmsv_hooktest_win32.dll`**\
 and place it in\
