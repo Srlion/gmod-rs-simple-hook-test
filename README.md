@@ -33,6 +33,6 @@ end)
 You can find the binary file in\
 **`target/<i686-W/E-W/E-W/E>/release/libgmsv_hooktest.so`**\
 rename it to\
-**`gmsv_hooktest_linux.dll`**\
+**`gmsv_hooktest_linux.dll`** | **`gmsv_hooktest_win32.dll`**\
 and place it in\
-**`your-gmod-server-directory/garrysmod/lua/bin/gmsv_hooktest_linux.dll`**
+**`your-gmod-server-directory/garrysmod/lua/bin/`**
