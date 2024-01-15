@@ -10,3 +10,4 @@ crate-type = ["cdylib"]
 
 [dependencies]
 gmod = { version = "17", default-features = false }
+
