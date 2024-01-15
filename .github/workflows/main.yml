@@ -36,11 +36,10 @@ jobs:
           sudo apt-get install gcc-i686-linux-gnu
           sudo apt-get install gcc-multilib
       - name: Install nightly toolchain
-        uses: dtolnay/rust-toolchain@stable
+        uses: dtolnay/rust-toolchain@nightly
         with:
           toolchain: nightly
-      - name: Add targets
-        run: rustup target add i686-unknown-linux-gnu
+          targets: i686-unknown-linux-gnu
       - name: Build 32-bit
         run: cargo build --release --target i686-unknown-linux-gnu
       - name: Strip debug symbols
